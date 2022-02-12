@@ -19,4 +19,4 @@ router.post("/add-product", (req, res, next) => {
 });
 
 exports.routes = router;
-exports.products = this.products;
+exports.products = products;
