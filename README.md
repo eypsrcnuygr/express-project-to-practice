@@ -2,6 +2,6 @@
 
 In Progress
 
-Here is a Picture what is going to build till now!
+Here is a Picture what has been built till now!
 
 ![screenshot](./public/scr.png)
