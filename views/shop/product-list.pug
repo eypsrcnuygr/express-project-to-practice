@@ -16,6 +16,9 @@ block content
                         div.card_content
                             h2.product__price $ #{product.price}
                             p.product__description #{product.description}
+                        div(id= 'centered')
+                            button.btn Details
+                                a(href="/products/#{product.id}") 
                         .card__actions
                             form.product-form(action="/add-to-cart", method="POST")
                                 button.btn(type='submit') Add to Cart 
